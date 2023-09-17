@@ -1,0 +1,12 @@
+<mat-checkbox
+  [checked]="sameAsCurrentAdd"
+  (change)="onClickSameAs($event)"
+  [color]="clickColor"
+  >Same as Current Address</mat-checkbox
+>
+<mat-checkbox
+  [checked]="diffAsCurrentAdd"
+  (change)="onClickDiffAs($event)"
+  [color]="clickColor"
+  >Different Address</mat-checkbox
+>
